@@ -1,1 +1,21 @@
+# Nummerspil
 
+import random
+
+nummeret = random.randint(1, 100)
+
+for gaet in range(10):
+
+    mit_gaet = int(input("Gæt et tal mellem 1 og 100: "))
+
+    # Conditional statements
+
+    if mit_gaet > nummeret:
+        print("For højt")
+
+    elif mit_gaet < nummeret:
+        print("For lavt")
+
+    elif mit_gaet == nummeret:
+        print("Yes, du gættede rigtigt!")
+        break

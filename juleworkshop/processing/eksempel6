@@ -1,0 +1,18 @@
+int d = day();    // Udregner dag mellem 1 - 31
+int m = month();  // Udregner måned mellem 1 - 12
+int y = year();   // Udregner årstal. 2003, 2004, 2005, etc.
+
+// Variabel String s angiver værdien af d = day()
+String s = String.valueOf(d);
+// println udskrive dag
+println("Dag: " + s);
+
+// s angiver værdien a m = month()
+s = String.valueOf(m);
+// Skriver måned
+println("Måned: " + s); 
+
+// s angiver værdien af år: y = year()
+s = String.valueOf(y);
+// udskriver årstal
+println("Årstal: " + s);

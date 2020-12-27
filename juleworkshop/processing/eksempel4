@@ -1,0 +1,23 @@
+// Lav canvas til x: 1200, y: 800
+size(1200, 800);
+
+// Fyld farve med værdien 200
+fill(200);
+// tegn en ellipse
+// X: 20, Y: 0, X: 100, Y: 100
+ellipse(20, 0, 100, 100);
+
+fill(150);
+circle(1200/5, 800/5, 400);
+
+fill(190);
+circle(1200/3.5, 800/3.5, 480);
+
+fill(230);
+circle(1200/2, 800/2, 300);
+
+fill(110);
+circle(1200, 800, 700);
+
+fill(80);
+circle(300, 900, 580);

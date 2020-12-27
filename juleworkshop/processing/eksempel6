@@ -1,0 +1,16 @@
+// Lav et setup
+void setup() {
+  // Canvas på X: 400, Y: 400
+  size(400, 400);
+  
+  // Bagrundfarver i Red, Green og Blue
+  // Brug "Tool" -> "Color Selector" for at finde farveværdier
+  background(25, 249, 203);
+}
+
+// Tegn en animation
+void draw() {
+  // mouseX og mouseY animerer efter musen.
+  // 50, 50 angiver størrelse
+  rect(mouseX, mouseY, 50, 50);
+}

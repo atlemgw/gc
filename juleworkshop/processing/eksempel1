@@ -1,0 +1,12 @@
+// Kommentar
+
+
+// Fyld med farveværdi
+fill(200);
+// Tegn ellipse
+ellipse(20, 0, 100, 100);
+
+// Fyld med farveværdi
+fill(150);
+// Tegn en cirkel
+circle(50, 50, 50);

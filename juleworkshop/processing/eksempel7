@@ -1,0 +1,33 @@
+float x = 500;
+float y = 500;
+float xspeed = 1;
+float yspeed = 1.3;
+
+void setup() {
+  size(800,600);
+  smooth();
+  background(120, 49, 180);
+}
+
+void draw() {
+  noStroke();
+  fill(255,1.4);
+  rect(0,0,width,height);
+  
+  // x og y adderes med speed
+  x = x + xspeed;
+  y = y + yspeed;
+
+  // Lad bold hoppe
+  if ((x > width) || (x < 0)) {
+    xspeed = xspeed * -1;
+  }
+  if ((y > height) || (y < 0)) {
+    yspeed = yspeed * -1;
+  }
+
+  // Opdater ved lokationerne
+  stroke(0);
+  fill(175, 49, 109);
+  rect(x,y,120, 120);
+}

@@ -1,0 +1,4 @@
+// print linje til konsollen
+
+println("Hello, Processing!");
+println("Nice to meet you");

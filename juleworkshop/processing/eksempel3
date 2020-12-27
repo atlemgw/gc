@@ -1,0 +1,13 @@
+// Tegn canvas på x: 600, y: 400
+size(600, 400);
+
+// Red, Green, Blue
+background(54, 149, 206);
+
+fill(203, 47, 146);
+// X = 100, Y = 80, str = 80
+circle(100, 80, 80);
+
+fill(188, 467, 62);
+// X = 100, Y = 80, str = 80
+circle(250, 130, 130);

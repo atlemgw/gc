@@ -1,0 +1,6 @@
+# Lister choose[x, y, z]
+
+10.times do
+  sleep 1
+  play choose([60, 30, 105])
+end

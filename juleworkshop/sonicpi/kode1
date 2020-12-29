@@ -1,0 +1,15 @@
+# Spil en melodi
+
+play 60
+
+sleep 1
+
+play 100
+
+sleep 1
+
+play 50
+
+sleep 1
+
+play 60

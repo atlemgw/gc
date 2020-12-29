@@ -1,0 +1,6 @@
+# Release holder på tonen
+play 60, release: 2
+
+sleep 2
+
+play 72, release: 3

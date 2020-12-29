@@ -1,0 +1,17 @@
+# Synth og pitch
+
+play 65, pitch: 30, release: 5
+
+sleep 1.5
+
+use_synth :noise
+
+4.times do
+  play 60, pitch: 50
+  sleep 0.5
+  play 70, pitch: 30
+  sleep 0.3
+  play 45, pitch: 10
+  sleep 0.5
+  play 105, pitch: 20
+end

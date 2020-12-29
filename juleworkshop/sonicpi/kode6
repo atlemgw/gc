@@ -1,0 +1,8 @@
+# Effekter
+play 50
+
+sleep 3
+
+with_fx :echo do
+  play 50
+end

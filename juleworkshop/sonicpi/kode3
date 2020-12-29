@@ -1,0 +1,11 @@
+# Loops
+
+4.times do
+  play 60
+  sleep 1
+  play 50
+  sleep 1
+  play 70
+  sleep 1
+  play 65
+end

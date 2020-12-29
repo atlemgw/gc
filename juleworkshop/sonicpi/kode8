@@ -1,0 +1,11 @@
+# Vand mod kyst
+
+live_loop :foo do
+  
+  use_synth :bnoise
+  play 62, attack: 4, pan: 1
+  sleep 1
+  play 62, attack: 05, pan: -1
+  sleep 1
+  
+end

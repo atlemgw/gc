@@ -1,0 +1,15 @@
+# Amplitude
+
+
+play 60, pan: -1, amp: 2
+sample :ambi_choir, amp: 10
+
+sleep 5
+
+play 60, pan: 1, amp: 2
+sample :ambi_choir, amp: 10
+
+sleep 5
+
+play 60, amp: 2
+sample :ambi_choir, amp: 10

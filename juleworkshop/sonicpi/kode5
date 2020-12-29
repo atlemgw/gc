@@ -1,0 +1,10 @@
+# samples
+
+play 65, release: 5
+sample :ambi_drone
+
+play 105, release: 5
+sample :ambi_lunar_land
+
+play 80, release: 7
+sample :vinyl_scratch

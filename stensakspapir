@@ -1,0 +1,136 @@
+# Sten, Saks, Papir
+
+import random
+import time
+
+
+liste = ["sten", "saks", "papir"]
+
+player_point = 0
+computer_point = 0
+
+
+print("Sten, Saks, Papir")
+print("Bedst ud af 3")
+print("-" * 30)
+print("loader".upper())
+time.sleep(2)
+
+# loop
+
+for i in range(1, 4):
+
+    computer = random.choice(liste)
+
+    time.sleep(2)
+    print()
+    print("Runde: " + str(i))
+    print("Sten, saks, papir")
+    player = input("Slå: ".lower())
+
+    time.sleep(1)
+
+    # Conditions
+
+    # STEN
+    if player == "sten":
+        # player vinder eller uafgjort
+        if computer == "saks" or computer == "sten":
+            # Player vinder
+            if computer == "saks":
+                print("Computerens valg: " + computer)
+                print("Du vandt denne omgang")
+
+                player_point = player_point + 2
+                computer_point = computer_point + 0
+            # uafgjort
+            elif computer == "sten":
+                print("Computerens valg: " + computer)
+                print("Den blev uafgjort")
+
+                player_point = player_point + 1
+                computer_point = computer_point + 1
+        # player taber
+        else:
+            print("Computerens valg: " + computer)
+            print("Du tabte denne omgang.")
+
+            player_point = player_point + 0
+            computer_point = computer_point + 2
+
+    # SAKS
+    elif player == "saks":
+        # player vinder eller uafgjort
+        if computer == "papir" or computer == "saks":
+            # Player vinder
+            if computer == "papir":
+                print("Computerens valg: " + computer)
+                print("Du vandt denne omgang")
+
+                player_point = player_point + 2
+                computer_point = computer_point + 0
+            # uafgjort
+            elif computer == "saks":
+                print("Computerens valg: " + computer)
+                print("Den blev uafgjort")
+
+                player_point = player_point + 1
+                computer_point = computer_point + 1
+        # player taber
+        else:
+            print("Computerens valg: " + computer)
+            print("Du tabte denne omgang.")
+
+            player_point = player_point + 0
+            computer_point = computer_point + 2
+
+    # PAPIR
+    elif player == "papir":
+        # player vinder eller uafgjort
+        if computer == "sten" or computer == "papir":
+            # Player vinder
+            if computer == "sten":
+                print("Computerens valg: " + computer)
+                print("Du vandt denne omgang")
+
+                player_point = player_point + 2
+                computer_point = computer_point + 0
+            # uafgjort
+            elif computer == "papir":
+                print("Computerens valg: " + computer)
+                print("Den blev uafgjort")
+
+                player_point = player_point + 1
+                computer_point = computer_point + 1
+        # player taber
+        else:
+            print("Computerens valg: " + computer)
+            print("Du tabte denne omgang.")
+
+            player_point = player_point + 0
+            computer_point = computer_point + 2
+
+    else:
+        print("Det forstod computeren ikke")
+        player_point = player_point - 1
+
+
+# pointtælling
+
+print()
+print("tæller point...")
+time.sleep(1.5)
+print("-" * 30)
+print("Dine point: " + str(player_point))
+print("Computerens point: " + str(computer_point))
+print("-" * 30)
+print()
+print("loader".upper())
+time.sleep(2)
+print()
+if player_point > computer_point:
+    print("Du vandt!")
+elif player_point == computer_point:
+    print("Den blev uafgjort")
+else:
+    print("Du tabte mod computeren!")

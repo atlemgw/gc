@@ -1,0 +1,54 @@
+# Eksempel på funktion
+#def navn():
+#    print("Anders And")
+
+    
+
+# Start på Spacefight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def menu():
+    print("#########################################")
+    print("#          S P A C E F I G H T          #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                 START                 #")
+    print("#                  ---                  #")
+    print("#                 SHOP                  #")
+    print("#                  ---                  #")
+    print("#               CONTROLS                #")
+    print("#                  ---                  #")
+    print("#                 INFO                  #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("# ------------------------------------- #")
+    print("# Copyright (C) DITNAVN                 #")
+    print("# ------------------------------------- #")
+    print("#########################################")
+
+
+
+menu()
+ 

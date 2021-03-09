@@ -6,6 +6,54 @@
 
 # Start på Spacefight
 
+# Spil
+def start():
+    print("#########################################")
+    print("#                                       #")
+    print("#                                       #")
+    print("#          NAVIGATIONSRUMMET            #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#########################################")
+
+
+
+
+
+def shop():
+    print("#########################################")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                 SHOP                  #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#                                       #")
+    print("#########################################")
 
 
 
@@ -20,25 +68,20 @@
 
 
 
-
-
-
-
-
-
+# Menu
 def menu():
     print("#########################################")
     print("#          S P A C E F I G H T          #")
     print("#                                       #")
     print("#                                       #")
     print("#                                       #")
-    print("#                 START                 #")
+    print("#               1.START                 #")
     print("#                  ---                  #")
-    print("#                 SHOP                  #")
+    print("#               2.SHOP                  #")
     print("#                  ---                  #")
-    print("#               CONTROLS                #")
+    print("#               3.CONTROLS              #")
     print("#                  ---                  #")
-    print("#                 INFO                  #")
+    print("#               4.INFO                  #")
     print("#                                       #")
     print("#                                       #")
     print("#                                       #")
@@ -47,8 +90,16 @@ def menu():
     print("# Copyright (C) DITNAVN                 #")
     print("# ------------------------------------- #")
     print("#########################################")
+    print()
+    print("                -Valg-                   ")
+    valg = input(">> ")
+    if valg == '1':
+        start()
+    elif valg == '2':
+        shop()
+    
 
 
-
+# kald på menu
 menu()
  
